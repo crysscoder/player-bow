@@ -1,0 +1,6 @@
+name: PlayerBow
+version: '${version}'
+main: dev.cryst.playerbow.PlayerBowPlugin
+api-version: '1.16'
+commands:
+  custombow: {}
