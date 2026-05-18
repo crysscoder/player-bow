@@ -1,13 +1,13 @@
-package dev.cryst.playerbow;
+package io.github.crysscoder.playerbow;
 
 import org.bukkit.plugin.java.JavaPlugin;
-import dev.cryst.playerbow.bow.effect.FallLandingEffect;
-import dev.cryst.playerbow.bow.key.CustomBowFactory;
-import dev.cryst.playerbow.bow.listener.BowProjectileListener;
-import dev.cryst.playerbow.bow.listener.BowUseListener;
-import dev.cryst.playerbow.bow.listener.FallDamageListener;
-import dev.cryst.playerbow.bow.manager.NoFallManager;
-import dev.cryst.playerbow.command.GiveBowCommand;
+import io.github.crysscoder.playerbow.bow.effect.FallLandingEffect;
+import io.github.crysscoder.playerbow.bow.key.CustomBowFactory;
+import io.github.crysscoder.playerbow.bow.listener.BowProjectileListener;
+import io.github.crysscoder.playerbow.bow.listener.BowUseListener;
+import io.github.crysscoder.playerbow.bow.listener.FallDamageListener;
+import io.github.crysscoder.playerbow.bow.manager.NoFallManager;
+import io.github.crysscoder.playerbow.command.GiveBowCommand;
 
 public final class PlayerBowPlugin extends JavaPlugin {
 

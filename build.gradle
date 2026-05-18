@@ -2,8 +2,8 @@ plugins {
     id 'java'
 }
 
-group = 'dev.cryst'
-version = '1.0.0'
+group = 'io.github.crysscoder'
+version = '1.0.1'
 
 repositories {
     mavenCentral()
@@ -47,4 +47,3 @@ processResources {
         expand props
     }
 }
-

@@ -1,4 +1,4 @@
-package dev.cryst.playerbow.bow.key;
+package io.github.crysscoder.playerbow.bow.key;
 
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;

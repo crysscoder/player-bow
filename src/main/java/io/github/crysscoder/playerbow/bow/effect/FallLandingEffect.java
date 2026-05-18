@@ -1,4 +1,4 @@
-package dev.cryst.playerbow.bow.effect;
+package io.github.crysscoder.playerbow.bow.effect;
 
 import org.bukkit.*;
 import org.bukkit.entity.LivingEntity;

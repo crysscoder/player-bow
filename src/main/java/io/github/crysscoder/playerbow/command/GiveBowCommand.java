@@ -1,4 +1,4 @@
-package dev.cryst.playerbow.command;
+package io.github.crysscoder.playerbow.command;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -6,7 +6,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.jetbrains.annotations.NotNull;
-import dev.cryst.playerbow.bow.key.CustomBowFactory;
+import io.github.crysscoder.playerbow.bow.key.CustomBowFactory;
 
 public class GiveBowCommand implements CommandExecutor {
     private final CustomBowFactory factory;

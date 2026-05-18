@@ -1,4 +1,4 @@
-package dev.cryst.playerbow.bow.listener;
+package io.github.crysscoder.playerbow.bow.listener;
 
 import org.bukkit.NamespacedKey;
 import org.bukkit.entity.Arrow;

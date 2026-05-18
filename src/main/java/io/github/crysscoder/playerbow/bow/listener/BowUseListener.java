@@ -1,4 +1,4 @@
-package dev.cryst.playerbow.bow.listener;
+package io.github.crysscoder.playerbow.bow.listener;
 
 import org.bukkit.Location;
 import org.bukkit.NamespacedKey;
@@ -16,9 +16,9 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.persistence.PersistentDataType;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.util.Vector;
-import dev.cryst.playerbow.bow.key.CustomBowFactory;
-import dev.cryst.playerbow.bow.manager.BowPullManager;
-import dev.cryst.playerbow.bow.manager.NoFallManager;
+import io.github.crysscoder.playerbow.bow.key.CustomBowFactory;
+import io.github.crysscoder.playerbow.bow.manager.BowPullManager;
+import io.github.crysscoder.playerbow.bow.manager.NoFallManager;
 
 public class BowUseListener implements Listener {
 

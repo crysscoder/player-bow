@@ -1,11 +1,11 @@
-package dev.cryst.playerbow.bow.manager;
+package io.github.crysscoder.playerbow.bow.manager;
 
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitTask;
 import org.bukkit.util.Vector;
-import dev.cryst.playerbow.bow.manager.session.BowPullSession;
+import io.github.crysscoder.playerbow.bow.manager.session.BowPullSession;
 
 import java.util.HashMap;
 import java.util.Map;

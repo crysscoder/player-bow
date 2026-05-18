@@ -1,4 +1,4 @@
-package dev.cryst.playerbow.bow.manager.session;
+package io.github.crysscoder.playerbow.bow.manager.session;
 
 import lombok.Getter;
 import org.bukkit.Location;

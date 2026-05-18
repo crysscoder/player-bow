@@ -1,4 +1,4 @@
-package dev.cryst.playerbow.bow.manager;
+package io.github.crysscoder.playerbow.bow.manager;
 
 import org.bukkit.entity.Player;
 
