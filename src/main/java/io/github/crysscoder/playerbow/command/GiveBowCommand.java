@@ -18,6 +18,7 @@ public class GiveBowCommand implements CommandExecutor {
     @Override
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
         if(!(sender instanceof Player player)) return false;
+        if (!player.hasPermission("playerbow.give")) return true;
         final ItemStack bow = factory.create();
         player.getInventory().addItem(bow);
         return true;

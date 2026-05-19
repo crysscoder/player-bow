@@ -52,7 +52,6 @@ public class BowPullManager{
             Bukkit.getScheduler().runTaskLater(plugin, () -> {
                 if (target.isOnline() && noFallManager.has(target)) {
                     if (target.isOnGround()) {
-                        System.out.println("[BowPull] Player landed safely, removing nofall");
                         noFallManager.remove(target);
                     } else {
                         Bukkit.getScheduler().runTaskLater(plugin, () -> {

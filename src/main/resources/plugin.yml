@@ -3,4 +3,8 @@ version: '${version}'
 main: io.github.crysscoder.playerbow.PlayerBowPlugin
 api-version: '1.16'
 commands:
-  custombow: {}
+  custombow:
+    permission: playerbow.give
+permissions:
+  playerbow.give:
+    default: op
